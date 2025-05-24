@@ -3,6 +3,13 @@ package functionsAndMethods;
 import java.util.*;
 
 public class javaBasics {
+    public static void scope(boolean t){
+        int tr = 0;
+        {{{{{{{int ti;System.out.println(tr);}}}}}}}
+        // System.out.println(ti);
+        for(;;){;;;;;;;;;;;;;;;;;/*System.out.println(p)*/;;int p=-0;System.out.println(p);}
+        // System.out.println(p);
+    }
     public static void printHelloWorld(){
         System.out.println("Hello World");
         System.out.println("Hello World");
@@ -16,11 +23,12 @@ public class javaBasics {
         return sum;
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int sum = calculateSum(a, b); //arguments or actual params 
-        System.out.println("The sum is " + sum);
-        sc.close();
+        scope(true);
+        // Scanner sc = new Scanner(System.in);
+        // int a = sc.nextInt();
+        // int b = sc.nextInt();
+        // int sum = calculateSum(a, b); //arguments or actual params 
+        // System.out.println("The sum is " + sum);
+        // sc.close();
     }
 }
