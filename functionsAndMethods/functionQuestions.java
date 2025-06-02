@@ -1,7 +1,5 @@
 package functionsAndMethods;
 
-import java.nio.channels.Pipe.SourceChannel;
-
 public class functionQuestions {
     // Question 1 : Write a Java method to compute the average of three numbers..
     public static void avgOfThree(int n1,int n2, int n3){

@@ -1,11 +1,11 @@
 package functionsAndMethods;
 
-import java.util.*;
+// import java.util.*;
 
 public class javaBasics {
     public static void scope(boolean t){
         int tr = 0;
-        {{{{{{{int ti;System.out.println(tr);}}}}}}}
+        {{{{{{{int ti = 0;System.out.println(ti);System.out.println(tr);}}}}}}}
         // System.out.println(ti);
         for(;;){;;;;;;;;;;;;;;;;;/*System.out.println(p)*/;;int p=-0;System.out.println(p);}
         // System.out.println(p);
