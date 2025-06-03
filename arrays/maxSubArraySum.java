@@ -1,4 +1,4 @@
-package functionsAndMethods;
+package arrays;
 
 public class maxSubArraySum {
 
@@ -47,7 +47,7 @@ public class maxSubArraySum {
         return msum;
     }
     public static void main(String[] args) {
-        int nums[] = {-2,1,-3,4,-1,2,1,-5,4}; //-1,-2,-6,-3,-6,-4
+        int nums[] = {-2,1,-3,4,-1,2,1,-5,4}; //-1,-2,-6,-3,-6,-4    //-2,1,-3,4,-1,2,1,-5,4
         System.out.println(kadane(nums));
     }
 }
